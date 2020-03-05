@@ -1,5 +1,5 @@
 CC=gcc
-runfile:add.o sub.o multi.o div.o
+runfile:add.o sub.o multi.o div.o run.o
 	$(CC) -o runfile add.o sub.o multi.o div.o run.o
 add.o:add.c
 	$(CC) -c add.c -o add.o
